@@ -1,0 +1,44 @@
+.heading {
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+
+
+body{
+    font-family: 'Pixelify Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.main{
+max-width: 1000px;
+text-align: center;
+padding: 30px;
+}
+
+
+.div2{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+   border-radius:10px;
+    
+}
+
+input{
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 30px;
+    border-radius:10px;
+}
