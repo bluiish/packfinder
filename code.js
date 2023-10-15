@@ -28,6 +28,8 @@ function search (){
 
     if(videos.includes(result)){
         window.open(vaar.value, '_blank')
+    } else{
+        alert("Video's packs not uploaded to the website or URL not valid.")
     }
 
     
