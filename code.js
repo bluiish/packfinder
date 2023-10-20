@@ -1,4 +1,4 @@
-const videos = ["qDpb_s7XhEU", "2cpgDhJgrrc", "mfFlhYL5TVE", "v8dTrvVRNWsM", "YFgIjJ2ASLk", "GbbwW3bEhdw", "4BTRCRPhTqw", "W_j-c0bO2cA", "g6OWHxDC7XI"];
+const videos = ["qDpb_s7XhEU", "2cpgDhJgrrc", "mfFlhYL5TVE", "v8dTrvVRNWsM", "YFgIjJ2ASLk", "GbbwW3bEhdw", "4BTRCRPhTqw", "W_j-c0bO2cA", "g6OWHxDC7XI", "_vF3uVrTlpI", "tWZuKh8bvzo", "QF0rWLb0Um0"];
 
 function search (){
     let url = document.getElementById("link").value; 
@@ -17,7 +17,9 @@ function search (){
         { name: '4BTRCRPhTqw', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1163045112436236379" },
         { name: 'W_j-c0bO2cA', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1163047284037132308" },
         { name: 'g6OWHxDC7XI', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1163051405427351562" },
-        { name: 'variable4', value: 40 },
+        { name: '_vF3uVrTlpI', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1163893747310923839"},
+        { name: 'tWZuKh8bvzo', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1163894192666321006"},
+        { name: 'QF0rWLb0Um0', value: "https://discord.com/channels/906763183228866601/1163033670328786974/1164953406570512424"},
       ];
 
       const searchVariable = (name) => variables.find(variable => variable.name === name);
